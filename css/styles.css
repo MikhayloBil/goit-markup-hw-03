@@ -30,6 +30,10 @@ button {
   cursor: pointer;
 }
 
+address {
+  font-style: normal;
+}
+
 /* -------------header----------- */
 
 .header-logo-link {
