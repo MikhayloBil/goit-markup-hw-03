@@ -34,6 +34,11 @@ address {
   font-style: normal;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 avto;
+}
+
 /* -------------header----------- */
 
 .header-logo-link {
