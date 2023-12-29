@@ -44,6 +44,11 @@ address {
 
 /* -------------header----------- */
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .header-logo-link {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
