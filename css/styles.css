@@ -35,8 +35,11 @@ address {
 }
 
 .container {
-  width: 1158px;
-  margin: 0 avto;
+  max-width: 1158px;
+  padding-left: 15;
+  padding-right: 15;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* -------------header----------- */
