@@ -107,6 +107,11 @@ address {
 }
 
 .hero-title {
+  width: 496px;
+  height: 120px;
+}
+
+.hero-title {
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
