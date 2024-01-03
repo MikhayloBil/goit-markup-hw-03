@@ -260,10 +260,13 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 100px;
+  padding-left: 156px;
 }
 
 .footer-logo-detalik {
   color: var(--CLOUD, #f4f4fd);
+  margin-bottom: 16px;
 }
 
 .taam-text {
@@ -271,5 +274,6 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 100px;
 }
 /* ------------------------------ */
