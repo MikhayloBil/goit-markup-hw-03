@@ -35,6 +35,7 @@ address {
 }
 
 .container {
+  width: 100%;
   max-width: 1158px;
   padding-left: 15;
   padding-right: 15;
@@ -109,6 +110,7 @@ address {
 .hero-title {
   width: 496px;
   height: 120px;
+  margin-bottom: 48px;
 }
 
 .hero-title {
@@ -129,6 +131,8 @@ address {
   color: var(--WHITE, #fff);
   background-color: #4d5ae5;
   font-size: 16px;
+  width: 169px;
+  height: 56px;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.5;
@@ -138,12 +142,17 @@ address {
 /* ------------------------------ */
 /* -----------features----------- */
 
+.features {
+  padding: 120px 156px;
+}
+
 .features-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -157,6 +166,7 @@ address {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
 }
 
 .team-title {
@@ -168,12 +178,14 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  min-width: 162px;
+  margin: 0 avto 72px;
 }
 
 .team-list {
 }
 .team-item {
-  background-color: #ffffff;
+  background: var(--CLOUD, #f4f4fd);
 }
 .team-img {
 }
@@ -198,7 +210,8 @@ address {
 /* ----------portfolio----------- */
 
 .portfolio {
-  background-color: #f4f4fd;
+  background: #fff;
+  padding: 120px 156px;
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -208,6 +221,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-list {
 }
@@ -233,6 +247,8 @@ address {
 /* -----------footer------------- */
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
+  width: 1440px;
+  height: 312px;
 }
 
 .footer-link {
