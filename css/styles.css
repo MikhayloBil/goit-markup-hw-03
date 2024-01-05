@@ -209,12 +209,15 @@ address {
 
 .features {
   padding: 120px 0;
-  width: calc((100% - 72px) / 4);
 }
 
 .features-list {
   display: flex;
   gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-title {
