@@ -263,13 +263,13 @@ address {
   padding-bottom: 32px;
   justify-content: center;
   align-items: center;
+  width: calc((100% - 72px) / 4);
   gap: 24px;
   padding-left: 120px;
   padding-right: 120px;
 }
 
 .team-item {
-  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
