@@ -242,6 +242,7 @@ address {
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-title {
@@ -263,7 +264,6 @@ address {
   padding-bottom: 32px;
   justify-content: center;
   align-items: center;
-  width: calc((100% - 72px) / 4);
   gap: 24px;
   padding-left: 120px;
   padding-right: 120px;
