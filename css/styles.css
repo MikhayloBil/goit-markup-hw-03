@@ -336,10 +336,11 @@ address {
   background: var(--NAVY-BLUE, #2e2f42);
   width: 1440px;
   height: 312px;
+  padding: 100px 0;
 }
 
 .footer-link {
-  display: flex;
+  display: inline-block;
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -348,7 +349,6 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 101.5px;
   padding-left: 156px;
   margin-bottom: 16px;
 }
