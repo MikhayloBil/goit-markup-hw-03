@@ -235,7 +235,7 @@ address {
 
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -247,6 +247,8 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
   min-width: 162px;
   margin-bottom: 72px;
 }
@@ -258,8 +260,7 @@ address {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
+
   padding-left: 120px;
   padding-right: 120px;
 }
@@ -297,7 +298,8 @@ address {
 
 .portfolio {
   background: #fff;
-  padding: 120px 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
