@@ -170,6 +170,10 @@ address {
 }
 
 .hero-button {
+  margin-left: 636px;
+}
+
+.hero-button {
   color: var(--WHITE, #fff);
   background-color: #4d5ae5;
   font-size: 16px;
