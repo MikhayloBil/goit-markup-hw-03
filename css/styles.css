@@ -258,8 +258,8 @@ address {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
   padding-left: 120px;
   padding-right: 120px;
 }
@@ -299,6 +299,7 @@ address {
   background: #fff;
   padding: 120px 156px;
 }
+
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -309,36 +310,46 @@ address {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .portfolio-item {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
-  width: 360px;
+  width: calc((100% - 48px) / 3);
 }
+
+.portfolio-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-img {
-  margin-bottom: 32px;
 }
+
 .portfolio-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
+
 .portfolio-text {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
+
 /* ------------------------------ */
 /* -----------footer------------- */
 .footer {
