@@ -216,6 +216,10 @@ address {
   gap: 24px;
 }
 
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
