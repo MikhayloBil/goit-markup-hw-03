@@ -39,10 +39,9 @@ address {
 }
 
 .container {
-  width: 100%;
-  max-width: 1440px;
-  padding-left: 15;
-  padding-right: 15;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -63,28 +62,21 @@ address {
 /* -------------header----------- */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  width: 1158px;
-  padding: 0 15px;
 }
 
 .header-navigation {
   display: flex;
-  margin-left: 156px;
-  flex-grow: 1;
   align-items: center;
 }
 
 .header-menu-list {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
   align-items: center;
   padding: 24px 0;
@@ -126,6 +118,7 @@ address {
 
 .header-address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header-address-link:active,
@@ -137,7 +130,6 @@ address {
 .header-address-list {
   display: flex;
   gap: 40px;
-  margin-right: 156px;
 }
 
 .header-address-link {
@@ -152,24 +144,18 @@ address {
 
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
   padding: 188px 0;
 }
 
 .hero-title {
   max-width: 496px;
-  height: 120px;
+  margin: 0 auto;
   margin-bottom: 48px;
-  padding-left: 472px;
-  padding-top: 188px;
 }
 
 .hero-title {
   color: var(--WHITE, #fff);
   text-align: center;
-  box-sizing: content-box;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -184,7 +170,7 @@ address {
 .hero-button {
   display: block;
   min-width: 169px;
-  margin-left: 636px;
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -227,7 +213,6 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .features-text {
@@ -361,8 +346,6 @@ address {
 /* -----------footer------------- */
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
-  width: 1440px;
-  height: 312px;
   padding: 100px 0;
 }
 
@@ -376,7 +359,6 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-left: 156px;
   margin-bottom: 16px;
 }
 
@@ -386,11 +368,8 @@ address {
 
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
-  padding-left: 156px;
   width: 264px;
-  height: 72px;
   font-size: 16px;
-  box-sizing: content-box;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
